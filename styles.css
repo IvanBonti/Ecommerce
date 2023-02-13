@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+* {
+    font-family: 'Questrial';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --clr-blue: darkblue;
+    --clr-white: white;
+}
+.topBar {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    color: var(--clr-white);
+    padding: 1rem;
+    text-align: center;
+}
+
+.cartAccesories {
+    font-size: 1rem;
+    color: var(--clr-blue);
+    
+}
